@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "unnameddelight:bucket_of_chicken"
+    },
+    "title": {
+      "translate": "advancement.bucket_of_chicken.eat"
+    },
+    "description": {
+      "translate": "advancement.bucket_of_chicken.eat.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "eat_bucket_of_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "unnameddelight:bucket_of_chicken"
+          ]
+        }
+      }
+    }
+  }
+}
