@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "unnameddelight",
+	"version": "${version}",
+	"name": "Unnamed Delight",
+	"description": "Addon for Farmer's Delight Refabricated that adds stupid stuff.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/unnameddelight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.kipischill.UnnamedDelight"
+		],
+		"client": [
+			"dev.kipischill.UnnamedDelightClient"
+		],
+		"fabric-datagen": [
+			"dev.kipischill.UnnamedDelightDataGenerator"
+		]
+	},
+	"mixins": [
+		"unnameddelight.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
