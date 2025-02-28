@@ -7,7 +7,7 @@
       "translate": "advancement.bucket_of_chicken.eat"
     },
     "description": {
-      "translate": "advancement.bucket_of_chicken.eat.desc"
+      "translate": "advancement.bucket_of_chicken.desc"
     },
     "frame": "challenge",
     "show_toast": true,
