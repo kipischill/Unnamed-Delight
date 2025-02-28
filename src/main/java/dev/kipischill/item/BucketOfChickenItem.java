@@ -1,4 +1,4 @@
-package dev.kipischill.item;
+ package dev.kipischill.item;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
