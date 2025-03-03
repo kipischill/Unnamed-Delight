@@ -4,6 +4,9 @@
   "tooltip.bucket_of_chicken.tooltip" : "Not a reference to a certain fast-food chain related to the country Kentucky.",
   "item.unnameddelight.bucket_of_chicken" : "Bucket Of Chicken",
 
+  "tooltip.napping_pills.tooltip" : "💀.",
+  "item.unnameddelight.napping_pills" : "Napping Pills",
+
   "advancement.bucket_of_chicken.eat" : "All that Cock in one mouth?",
   "advancement.bucket_of_chicken.desc" : "Eat a Bucket Of Chicken"
 }
