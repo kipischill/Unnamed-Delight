@@ -1,7 +1,6 @@
 package dev.kipischill.mixin;
 
 import dev.kipischill.registry.ModEffects;
-import org.ladysnake.pickyourpoison.common.PickYourPoison;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.MobEntity;
