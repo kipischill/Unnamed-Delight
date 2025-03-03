@@ -2,6 +2,7 @@ package dev.kipischill.registry;
 
 import dev.kipischill.UnnamedDelight;
 import dev.kipischill.item.BucketOfChickenItem;
+import dev.kipischill.item.NappingPillsItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -11,6 +12,7 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     public static final Item BUCKET_OF_CHICKEN = registerItem("bucket_of_chicken", new BucketOfChickenItem(new FabricItemSettings().food(ModFoodComponents.BUCKET_OF_CHICKEN).maxCount(32).rarity(Rarity.RARE)));
+    public static final Item NAPPING_PILLS = registerItem("napping_pills", new NappingPillsItem(new FabricItemSettings().food(ModFoodComponents.NAPPING_PILLS).maxCount(1).rarity(Rarity.RARE)));
 
 
     public static Item registerItem(String name, Item item) {
