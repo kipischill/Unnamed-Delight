@@ -4,10 +4,12 @@
   "itemgroup.unnameddelight" : "Unnamed Delight",
 
   "tooltip.bucket_of_chicken.tooltip" : "Not a reference to a certain fast-food chain related to the country Kentucky.",
-  "item.unnameddelight.bucket_of_chicken" : "Bucket Of Chicken",
+  "item.unnameddelight.bucket_of_chicken" : "Bucket of Chicken",
 
-  "tooltip.napping_pills.tooltip" : "💀.",
+  "tooltip.napping_pills.tooltip" : "Great for sleeping! Just don't die while on them.",
   "item.unnameddelight.napping_pills" : "Napping Pills",
+
+  "tooltip.icecreamsandwich" : "Looks like a lot of sugar.",
 
   "advancement.bucket_of_chicken.eat" : "All that Cock in one mouth?",
   "advancement.bucket_of_chicken.desc" : "Eat a Bucket Of Chicken"
