@@ -7,11 +7,12 @@
 		"EntityNavigationMixin",
 		"LivingEntityMixin",
 		"LookControlMixin",
-		"MobEntityMixin",
+		"MobEntityMixin"
 	],
 	"client": [
 		"KeyboardMixin",
 		"MouseMixin",
+		"CameraMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
