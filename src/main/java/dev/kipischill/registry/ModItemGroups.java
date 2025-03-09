@@ -15,6 +15,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.unnameddelight"))
                     .icon(() -> new ItemStack(ModItems.BUCKET_OF_CHICKEN)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.BUCKET_OF_CHICKEN);
+                        entries.add(ModItems.NAPPING_PILLS);
                     })).build());
 
     public static void registerItemGroups() {
